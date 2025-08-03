@@ -1,0 +1,40 @@
+const strings = [
+    'AND I\'D DO IT ALL AGAIN...',
+    'BY ANY MEANS NECESSARY.',
+    'YOU NEVER UNDERSTOOD WHAT I DID',
+
+    'ENJOY IT WHILE IT LASTS.',
+    'THIS CITY IS MINE, AND IT\'S TIME FOR YOU TO DISAPPEAR AGAIN.',
+
+    'DON\'T GO BROKE TRYING TO CATCH UP',
+    'THE WORLD HAS RESERVED NOTHING FOR YOU',
+    'YOU\'RE THE CAPTAIN NOW',
+
+    'AGAIN, BABE, AGAIN',
+    'ALL THE CRAZY SHIT I DID TONIGHT...',
+    'BACK TO THE BACK OF THE \'LAC',
+    'COUNT CASH UNDER BULLETPROOF GLASS IN THE HUMMER',
+    'DRIVE A NEW \'RARI, I DON\'T NEED A NOTE',
+    'I MISS THE THINGS WE HAD, I REMEMBER IT ALL...',
+    'I WANT THE BEST FOR YOU, BUT WANT BETTER FOR ME',
+    'IT\'S LONELY AT THE TOP',
+    'NIGHT LIFE IN THE BRIGHT LIGHTS',
+    'NOBODY MOVE, NOBODY GET HURT',
+    'NOW I\'M GONNA SHOOT \'EM ALL',
+    'PULL UP SWERVIN\' IN A COUPE',
+    'ROLL IT UP, TAKE A HIT',
+    'SHOOT TO KILL',
+    'WELCOME TO THE LIMIT',
+    'WELCOME TO YOUR PERSONAL SIMULATION',
+    'YOU CAN\'T DO IT LIKE ME',
+    'YOU DON\'T KNOW WHAT YOU GOT \'TIL IT\'S GONE',
+    'YOU DON\'T WANNA KNOW THAT FEAR',
+    'YOU DON\'T WANNA FOLD NOW',
+];
+
+window.onload = function () {
+    const element = document.getElementById('subtitle');
+    const index = Math.floor(Math.random() * strings.length);
+
+    element.innerText = strings[index];
+};
