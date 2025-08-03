@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('fonts/Bahnschrift.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Pro 93 Black Extended Oblique';
+    src: url('fonts/HelveticaNeueLTProBlkExO.woff') format('woff');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    color: #F1F8FC;
+    background: #0A0A0A;
+}
+
+body {
+    font-family: 'Helvetica Neue LT Pro 93 Black Extended Oblique', monospace;
+    text-align: center;
+}
+
+main,
+header,
+copyright {
+    margin: 5%;
+}
+
+copyright p {
+    color: #7A7A7A;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2,
+p,
+a {
+    font-family: 'Bahnschrift', monospace;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#subtitle {
+    font-size: 16px;
+}
+
+.emphasis {
+    color: #FF0049;
+}
+
+.button {
+    padding: 0.5rem;
+    margin: 1rem;
+    background: #FF0049;
+    border: none;
+    font-weight: bold;
+}
